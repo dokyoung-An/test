@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <head>
+        <title>도준 ♡ 민영의 결홈을 축하해 주세요</title>
+        <script id="javascript-sdk" src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+        </head>
+</head>
+<body>
+    <p><strong>청첩장 보러가기</strong></p>
+<a id="kakao-link-btn" href="javascript:sendLink()">
+  <img
+    src="https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png"
+  />
+</a>
+<script type="text/javascript">
+ Kakao.init('6764d79e9ecc97f64d916849306ddc02');
+  function sendLink() {
+    Kakao.Link.sendDefault({
+      objectType: 'feed',
+      content: {
+        title: '도준 ♡ 민영의 결혼을 축하해 주세요',
+        description: '도준 ♡ 민영의 모바일 청첩장입니다',
+        imageUrl:
+          'https://poetic-semolina-6bab07.netlify.app/img_00.png',
+        link: {
+          mobileWebUrl: 'http://www.vink-vrcard.com/kimyoung/test/',
+          webUrl: 'http://www.vink-vrcard.com/kimyoung/test/',
+        },
+      },
+      buttons: [
+        {
+          title: '청첩장 보러가기',
+          link: {
+            mobileWebUrl: 'http://www.vink-vrcard.com/kimyoung/test/',
+            webUrl: 'http://www.vink-vrcard.com/kimyoung/test/',
+          },
+        },
+      ],
+    })
+  }
+</script>
+
+</body>
+</html>

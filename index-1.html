@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="format-detection" content="telephone=no" />
+    <!-- 페이지 자동이동 -->
+    <!-- <meta http-equiv="refresh" content="1; url=https://www.naver.com/"> -->
+   
+    <!-- 메타테그 -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="도준 ♡ 민영의 모바일 청첩장입니다." />
+    <meta property="og:site_name" content="도준 ♡ 민영의 모바일 청첩장입니다."/>
+    <meta property="og:url" content="http://www.vink-vrcard.com/kimyoung/test/">
+    
+                    
+    <meta property="og:description" content="2022년 12월 3일 토요일 오전 11시 20분 더컨벤션 영등포점 1F 그랜드볼룸
+(서울 영등포구 국회대로38길 2)" />
+    <meta property="og:desc_date" content="2022년 12월 3일 토요일 오전 11시 20분 " />    
+    <meta property="og:desc_place" content="더컨벤션 영등포점 1F 그랜드볼룸
+(서울 영등포구 국회대로38길 2)" />
+    <meta property="og:desc_address" content="서울 영등포구 국회대로38길 2" />
+    
+    <meta property="og:image" content="img_00.png" />
+    <meta property="og:image:width" content="500" />
+    <meta property="og:image:height" content="800" />
+    <!-- 메타테그 -->
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+  />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="./mind.css">
+    <link rel="stylesheet" href="./map.css">
+    <link rel="stylesheet" href="./gallery.css">
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=67d317c6439b7011b33985d71c20202c"></script>
+   
+    
+    <title>VR 청첩장 by Vink</title>
+</head>
+<body class="fade">
+    <div class="container">
+    <iframe src="http://www.vink-vrcard.com/output1/" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden;">
+    </iframe>
+    <div class="menu1">
+      <img src="./image/menu-btn.png">
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg> -->
+      </div>
+    <div class="side-bar">
+        <div class="icon">
+            <!-- <div class="img">
+                <img src="./image/menu-btn.png">   
+              </div>       -->
+            <div class="menu">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>              
+            </div>  
+        </div>
+        <div class="wel">
+          <div class="text">Welcome to our wedding.</div>   
+          <div class="line"></div>   
+        </div>
+        <ul>
+          <div class="list">
+            <img src="./image/heart.png"/>
+            <li class="contents" id="thank">감사인사</li>
+          </div>
+          <div class="list">
+              <img src="./image/gallery.png"/>
+              <li class="contents" id="gallery">갤러리</li>
+          </div>
+            <div class="list">
+              <img src="./image/nav-c.png"/>
+              <li class="contents" id="map-b">찾아오시는 길</li>
+          </div>
+          <div class="line"></div>
+            <div class="list">
+              <img src="./image/phone-c.png"/>
+              <li class="contents" id="contact-m">신랑에게 연락하기</li>
+           </div>
+            <div class="list">
+              <img src="./image/letter.png"/>
+              <li class="contents" id="mind-m">신랑에게 마음 전하기</li>
+            </div>
+            <div class="line"></div>
+            <div class="list">  
+              <img src="./image/phone-c.png"/>
+              <li class="contents" id="contact-w">신부에게 연락하기</li>
+            </div>
+            <div class="list">
+              <img src="./image/letter.png"/>
+              <li class="contents" id="mind-w">신부에게 마음 전하기</li>
+            </div>
+        </ul>
+    </div>
+    <!-- 감사인사부분 -->
+    <div class="pop-up" id="thank-to">
+      <div class="content">
+        <h1>감사인사</h1>
+        <span>그동안 저희를 아껴주시고 보살펴주신<br> 여러 어른, 친지 그리고 벗님들께 감사드립니다.<br>
+          아뢰올 말씀은<br>
+          저희 두사람이 사랑으로 만나<br>
+          이제 믿음과 화목으로<br> 한 울타리를 만들고<br>
+          그 속에서 행복한 가정을<br>이루고자 하오니
+          바쁘신 중에도<br>
+          함께 자리를 하시어<br>
+          새출발을 빛내주시면<br>
+          감사하겠습니다.</span>
+      </div>
+    </div>
+    <!-- 신랑에게 연락하기 -->
+    <div class="pop-up" id="contact-m-b">
+      <div class="container">
+        <div class="logo">
+            <img src="./image/logo.png">
+        </div>
+        <div class="hello">
+            <h1>신랑에게 축하인사</h1>
+        </div>
+        <div class="box">
+        <div class="name">
+           <p>이행복, 박영원의 장남 도준</p>
+           <p>김평화, 최사랑의 장녀 민영</p>
+        </div>
+        <div class="thank">
+            <div class="people">
+            <span>신랑에게 축하인사</span>
+            <div class="contact">
+                <a class="tel" href="tel:010-000-0000">
+                  <div class="icon">  
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" class="w-6 h-6">
+                    <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clip-rule="evenodd" />
+                  </svg>
+                  </div>
+                </a>
+                <a class="sms" href="sms:010-000-0000">
+                 <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" class="w-6 h-6">
+                  <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
+                  <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
+                </svg>         
+                </div>
+                </a>
+            </div>
+            </div>
+            <div class="parent"><p>신랑측 혼주</p></div>
+            
+            <div class="people">
+                <span>아버지 이행복 님</span>
+                <div class="contact">
+                  <a class="tel" href="tel:010-000-0000">
+                    <div class="icon">  
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" class="w-6 h-6">
+                      <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clip-rule="evenodd" />
+                    </svg>
+                    </div>
+                  </a>
+                  <a class="sms" href="sms:010-000-0000">
+                   <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" class="w-6 h-6">
+                    <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
+                    <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
+                  </svg>         
+                  </div>
+                  </a>
+              </div>
+            </div>
+            <div class="people">
+                <span>어머니 박영원 님</span>
+                <div class="contact">
+                  <a class="tel" href="tel:010-000-0000">
+                    <div class="icon">  
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" class="w-6 h-6">
+                      <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clip-rule="evenodd" />
+                    </svg>
+                    </div>
+                  </a>
+                  <a class="sms" href="sms:010-000-0000">
+                   <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" class="w-6 h-6">
+                    <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
+                    <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
+                  </svg>         
+                  </div>
+                  </a>
+              </div>
+            </div>
+        </div>
+            
+        </div>
+    
+    </div>
+    </div>
+        <!-- 신부에게 연락하기 -->
+        <div class="pop-up" id="contact-w-b">
+          <div class="container">
+            <div class="logo">
+                <img src="./image/logo.png">
+            </div>
+            <div class="hello">
+                <h1>신부에게 축하인사</h1>
+            </div>
+            <div class="box">
+            <div class="name">
+               <p>김평화, 최사랑의 장녀 민영</p>
+               <p>이행복, 박영원의 장남 도준</p>
+            </div>
+            <div class="thank">
+                <div class="people">
+                <span>신부에게 축하인사</span>
+                <div class="contact">
+                    <a class="tel" href="tel:010-000-0000">
+                      <div class="icon">  
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" class="w-6 h-6">
+                        <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clip-rule="evenodd" />
+                      </svg>
+                      </div>
+                    </a>
+                    <a class="sms" href="sms:010-000-0000">
+                     <div class="icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" class="w-6 h-6">
+                      <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
+                      <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
+                    </svg>         
+                    </div>
+                    </a>
+                </div>
+                </div>
+                <div class="parent"><p>신부측 혼주</p></div>
+                
+                <div class="people">
+                    <span>아버지 김평화 님</span>
+                    <div class="contact">
+                      <a class="tel" href="tel:010-000-0000">
+                        <div class="icon">  
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" class="w-6 h-6">
+                          <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clip-rule="evenodd" />
+                        </svg>
+                        </div>
+                      </a>
+                      <a class="sms" href="sms:010-000-0000">
+                       <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" class="w-6 h-6">
+                        <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
+                        <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
+                      </svg>         
+                      </div>
+                      </a>
+                  </div>
+                </div>
+                <div class="people">
+                    <span>어머니 최사랑 님</span>
+                    <div class="contact">
+                      <a class="tel" href="tel:010-000-0000">
+                        <div class="icon">  
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" class="w-6 h-6">
+                          <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clip-rule="evenodd" />
+                        </svg>
+                        </div>
+                      </a>
+                      <a class="sms" href="sms:010-000-0000">
+                       <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" class="w-6 h-6">
+                        <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
+                        <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
+                      </svg>         
+                      </div>
+                      </a>
+                  </div>
+                </div>
+            </div>
+                
+            </div>
+        
+        </div>
+        </div>
+
+
+      <!-- 신랑에게 마음전하기 -->
+      <div class="pop-up" id="mind-m-b">
+        <div class="container">
+        <div class="logo">
+            <img src="./image/logo.png">
+        </div>
+      
+        <div class="hello" >
+            <h1 id="big">신랑에게 마음 전하기</h1>
+            <h1 id="small">신랑에게 <br>마음 전하기</h1>
+        </div>
+    
+        <div class="boxes">
+        <div class="text">
+           <p>신랑에게 마음 전하기</p>
+           <p>카카오뱅크 705-5034-8512-11 &nbsp; 이준서</p>
+           <div class="btn" id="copy">복사하기</div>
+        </div>
+        <div class="parent">
+            <p>신랑측 혼주</p>
+        </div>
+        <div class="text">
+            <p>아버지 이행복</p>
+            <p>카카오뱅크 705-5034-8512-12 &nbsp;이행복</p>
+            <div class="btn" id="copy-f-f">복사하기</div>
+         </div>
+         <div class="text">
+            <p>어머니 박영원</p>
+            <p>카카오뱅크 705-5034-8512-13 &nbsp;박영원</p>
+            <div class="btn" id="copy-f-m">복사하기</div>
+         </div>   
+        </div>
+      </div>
+      </div>
+        <!-- 신부에게 마음전하기 -->
+        <div class="pop-up" id="mind-w-b">
+          <div class="container">
+          <div class="logo">
+              <img src="./image/logo.png">
+          </div>
+        
+          <div class="hello" >
+              <h1 id="big">신부에게 마음 전하기</h1>
+              <h1 id="small">신부에게 <br>마음 전하기</h1>
+          </div>
+      
+          <div class="boxes">
+          <div class="text">
+             <p>신부에게 마음 전하기</p>
+             <p>카카오뱅크 705-5034-8512-11 &nbsp; 김은채</p>
+             <div class="btn" id="copy-w">복사하기</div>
+          </div>
+          <div class="parent">
+              <p>신부측 혼주</p>
+          </div>
+          <div class="text">
+              <p>아버지 김평화</p>
+              <p>카카오뱅크 705-5034-8512-12 &nbsp;김평화</p>
+              <div class="btn" id="copy-w-f">복사하기</div>
+           </div>
+           <div class="text">
+              <p>어머니 최사랑</p>
+              <p>카카오뱅크 705-5034-8512-13 &nbsp;최사랑</p>
+              <div class="btn" id="copy-w-m">복사하기</div>
+           </div>   
+          </div>
+        </div>
+        </div>
+      <!-- 갤러리 -->
+      <div class="pop-up" id="gallery-b">
+        <div class="gallery-box">
+          <div class="logo" id="stop">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg> 
+        </div>
+        <div class="swiper mySwiper" id="pc">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./image/img_00.png">
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/img_01.png">
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/img_02.png">
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/img_03.png">
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/img_04.png">
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/img_05.jpg">
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/img_06.png">
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/img_07.png">
+            </div>
+            <div class="swiper-slide"> 
+              <img src="./image/img_08.jpg">
+            </div>
+            <div class="swiper-slide"> 
+              <img src="./image/img_09.jpg">
+            </div>
+          </div>
+          <div class="swiper-button-next" style="color:black"></div>
+          <div class="swiper-button-prev" style="color:black"></div>
+          <div class="swiper-pagination" style="display:none"></div>
+        </div>
+
+
+        <div class="swiper mySwiper" id="mobile">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./image/img_00.png">
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/img_01.png">
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/img_02.png">
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/img_03.png">
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/img_04.png">
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/img_05.jpg">
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/img_06.png">
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/img_07.png">
+            </div>
+            <div class="swiper-slide"> 
+              <img src="./image/img_08.jpg">
+            </div>
+            <div class="swiper-slide"> 
+              <img src="./image/img_09.jpg">
+            </div>
+          </div>
+          <div class="swiper-scrollbar"></div>
+        </div>
+       
+      </div>
+      </div>
+
+         <!-- 찾아 오시는길 -->
+         <div class="pop-up" id="mapss">
+          <div class="maps">
+          <div class="logo">
+              <img src="./image/logo.png">
+          </div>
+          <div class="hello">
+              <h1 id="h1">찾아오시는 길</h1>
+          </div>
+          <div class="map">
+              <div id="map"></div>
+         
+          <div class="map-box">
+              <div class="traffic">
+                  <div class="image navi">
+                      <img src="./image/nav.png"/>
+                  </div>
+                  <div class="explain">
+                      <p>더컨벤션 영등포점 1F 그랜드볼룸</p>
+                      <p>서울 영등포구 국회대로 38길 2</p>
+                      <p>02-6426-5000</p>
+                  </div>
+              </div>
+              <div class="traffic">
+                  <div class="image">
+                      <img src="./image/bus.png"/>
+                  </div>
+                  <div class="explain">
+                      <p>고속버스 이용 시</p>
+                      <p>지하철 9호선 고속버스터미널역 승차</p>
+                      <p>(김포공항행,신반포역방면)>당산역하차</p>
+                      <p>>지하철 2호선 환성(성수(외선)행,영등포구청역 방면)</p>
+                      <p>>영동구청역 하차 후 3번 출구 도보 3분</p>
+                  </div>
+              </div>
+              <div class="traffic">
+                  <div class="image">
+                      <img src="./image/KTX.png"/>
+                  </div>
+                  <div class="explain">
+                      <p>KTX 이용 시</p>
+                      <p>지하철 1호선 서울역 승차(인천행,남영역 방면)</p>
+                      <p>>신도림역 하차 후 지하철 2호선 신도림역 환승</p>
+                      <p>(성수(내선)행,문래역 방면)</p>
+                      <p>영등포구청역 하차 후 3번 출구 도보 3분</p>
+                  </div>
+              </div>
+              <div class="traffic">
+                  <div class="image">
+                      <img src="./image/bus.png"/>
+                  </div>
+                  <div class="explain">
+                      <p>전체버스</p>
+                      <p>태안 우체국 주차장에서 오전 8시 출발(12월 03일)</p>
+                  </div>
+              </div>
+            
+          </div>    
+         
+        </div>
+       
+      </div>
+     
+    </div>
+   <div class="speaker">
+    <div class="play">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" class="w-6 h-6">
+      <path d="M13.5 4.06c0-1.336-1.616-2.005-2.56-1.06l-4.5 4.5H4.508c-1.141 0-2.318.664-2.66 1.905A9.76 9.76 0 001.5 12c0 .898.121 1.768.35 2.595.341 1.24 1.518 1.905 2.659 1.905h1.93l4.5 4.5c.945.945 2.561.276 2.561-1.06V4.06zM18.584 5.106a.75.75 0 011.06 0c3.808 3.807 3.808 9.98 0 13.788a.75.75 0 11-1.06-1.06 8.25 8.25 0 000-11.668.75.75 0 010-1.06z" />
+      <path d="M15.932 7.757a.75.75 0 011.061 0 6 6 0 010 8.486.75.75 0 01-1.06-1.061 4.5 4.5 0 000-6.364.75.75 0 010-1.06z" />
+    </svg>  
+   </div>  
+   <div class="muted">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" class="w-6 h-6">
+      <path d="M13.5 4.06c0-1.336-1.616-2.005-2.56-1.06l-4.5 4.5H4.508c-1.141 0-2.318.664-2.66 1.905A9.76 9.76 0 001.5 12c0 .898.121 1.768.35 2.595.341 1.24 1.518 1.905 2.659 1.905h1.93l4.5 4.5c.945.945 2.561.276 2.561-1.06V4.06zM17.78 9.22a.75.75 0 10-1.06 1.06L18.44 12l-1.72 1.72a.75.75 0 001.06 1.06l1.72-1.72 1.72 1.72a.75.75 0 101.06-1.06L20.56 12l1.72-1.72a.75.75 0 00-1.06-1.06l-1.72 1.72-1.72-1.72z" />
+    </svg>     
+   </div>  
+    <audio autoplay controls muted id="myAudio" src="./image/music/swan.mp3" type="audio/mp3"></audio>
+   </div>
+</div>
+<script>
+   myAudio.play(); 
+   document.addEventListener("DOMContentLoaded", () => {
+   window.setTimeout(() => {
+    document.body.className = '';
+    });
+  });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    scrollbar: {
+      el: ".swiper-scrollbar",
+      hide: true,
+    },
+  });
+</script>
+
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    // spaceBetween: 30,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+
+<script src="./music.js"></script>
+<script src="./map.js"></script>
+<script src="./app.js"></script>
+<script src="./mind.js"></script>
+</body>
+</html>

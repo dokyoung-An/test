@@ -1,0 +1,185 @@
+.container .pop-up .container {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:0;
+    box-shadow:0.2rem 0.2rem 0.2rem 0.2rem rgba(0,0, 0,0.1);
+    box-sizing: border-box;
+    padding:5rem;
+    overflow-y:scroll ;
+    min-height: 100vh;
+   
+   
+}
+.container .pop-up .container .logo {
+    position: absolute;
+    right:2rem;
+    top:1rem;
+    width: 2rem;
+}
+.container .pop-up .container .logo img {
+    width: 100%;
+}
+
+.container .pop-up .container .hello {
+    width: 100%;
+    text-align: center;
+}
+.container .pop-up .container .hello h1{
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    letter-spacing: 0.4rem;
+    font-weight: 900;
+    text-shadow: 0.8rem 0.8rem 0.8rem rgba(255, 255, 255, 0.5); 
+    word-break: keep-all;
+}
+.container .pop-up .container .boxes {
+    width: 100%;
+    height: auto;
+    background-color: rgba(255,255,255,0.7); 
+    overflow-y: scroll;
+    box-sizing: border-box;
+    padding:2rem;
+}
+.container .pop-up .container .boxes .text {
+  height: auto;
+  width: auto;
+  margin: 0;
+  word-break: keep-all; 
+}
+
+.container .pop-up .container .boxes .text p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    word-break: keep-all;
+    margin: 0.5rem 0;
+}
+.container .pop-up .container .boxes .text p:first-child {
+    font-weight: 600;
+}
+
+
+.container .pop-up .container .boxes .parent{
+    font-size: 1.3rem;
+}
+.container .pop-up .container .boxes .btn {
+    width: 50%;
+    height: auto;
+    padding:0.5rem 1rem;
+    background-color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    margin-top:0.5rem;
+    border: 0;
+    border-radius: 25px;
+    box-shadow:0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.1);  
+    margin-bottom: 1rem;
+}
+.container .pop-up .container .boxes .btn:hover {
+    background-color: pink;
+    color: #fff;
+    transition-property:background-color, color;
+    transition: 0.5s linear;
+}
+
+#small{
+    display: none;
+}
+#big{
+    display: block;
+}
+#mind-w-b,
+#mind-m-b {
+    display: none;
+}
+#mind-w-b.active,
+#mind-m-b.active {
+    display: block;
+}
+
+
+@media screen and (max-width:1024px) {
+    .container .pop-up .container {
+        padding:5rem 3rem;
+    }
+    .container .pop-up .container .hello h1{
+        font-size: 2rem;
+    }
+    .container .pop-up .container .boxes {
+        padding: 0 2rem;
+    }
+    .container .pop-up .container {
+        width: 60%;
+     
+    }
+}
+@media screen and (max-width:540px) {
+    .container .pop-up .container .logo {
+        right:1rem;
+        top:1rem;
+        width: 1.5rem;
+    }
+    .container .pop-up .container {
+        width: 60%;
+        padding:5rem 1rem;
+    }
+    .container .pop-up .container .hello h1{
+        font-size: 1.8rem;
+    }
+    #small{
+        display: block;
+    }
+    #big {
+        display: none;
+    }
+    .container .pop-up .container .boxes {
+        padding: 0 1rem;
+    }
+    .container .pop-up .container .boxes .text p {
+        font-size: 1rem;
+    }
+
+    .container .pop-up .container .boxes .parent{
+        font-size: 1rem;
+    }
+    .container .pop-up .container .boxes .btn {
+       font-size: 0.8rem;
+    }
+}
+@media screen and (max-width:420px) {
+    .container .pop-up .container {
+        width: 100%;
+    }
+    .container .pop-up .container .hello h1{
+        font-size: 1.5rem;
+    }
+    .container .pop-up .container .boxes {
+        padding: 0 1rem;
+    }
+    .container .pop-up .container .boxes .name p {
+        font-size: 1.1rem;
+        margin-top: 2rem;
+      
+    }
+    .container .pop-up .container .boxes .name p:last-child {
+        font-size: 0.9rem;
+    }
+    .container .pop-up .container .boxes .thank .people span{
+        font-size: 1rem;
+        margin: 1rem 0;
+    }
+    .container .pop-up .container .boxes .thank .people .contact a .icon{
+        width: 1rem;
+        height: 1rem;
+    }
+    .container .pop-up .container .boxes .parent {
+        font-size: 1rem;
+        margin-top: 2rem;
+        
+    }
+}
+
